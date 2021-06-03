@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-color: blue;
+	justify-content: center;
+	display: flex;
+}
+header img{
+	width: 150px;
+	height: auto;
+}
+.main{
+	position: relative;
+	margin-top: 10px;
+	font-size: 30px;
+}
+.form{
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	color: red;
+}
+.form input{
+	margin: 5px;
+	text-align: center;
+}
+.name{
+	margin-bottom: 10px;
+}
+.gender{
+	margin-bottom: 10px;
+}
+#g{
+	margin-right: 20px;
+}
+.email{
+	margin-bottom: 10px;
+}
+.agree{
+	margin-bottom: 10px;
+}
+#term{
+	font-size: 20px;
+	color:white;
+}
+.footer{
+	background-color: blue;
+	justify-content: center;
+	text-align: center;
+	height: 30px;
+}
