@@ -40,6 +40,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	font-weight: bold;
+	color: red;
 }
 .search{
 	display: flex;
@@ -47,6 +48,7 @@ nav ul li a:hover{
 	border-color: black;
 	border-width: 10px;
 	height: 58px;
+	margin-right: 100px;
 }
 .search input{
 	padding-left: 10px;
@@ -61,24 +63,6 @@ nav ul li a:hover{
 	height: 30px;
 	border-radius: 10px;
 	margin: 0 10px;
-}
-.signup{
-	display: flex;
-	justify-content: flex-start;
-	width: 47px;
-	height: 34px;
-	border-radius: 10px;
-	margin: 12px 10px 12px 5px;
-	align-items: center;
-}
-.login{
-	display: flex;
-	justify-content: flex-start;
-	width: 40px;
-	height: 34px;
-	border-radius: 10px;
-	margin: 10px 10px 10px 30px;
-	align-items: center;
 }
 .container{
 	min-height: 86vh;
